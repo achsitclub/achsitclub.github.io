@@ -1,24 +1,52 @@
-/* Required height of parents of the Full Page Intro and Intro itself */
-html,
-body,
-.view {
-  height: 100%; }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Navbar animation */
-.navbar {
-  background-color: rgba(0, 0, 0, 0.2); }
+@font-face {
+    font-family: Adam;
+    src: url(../libs//fonts//adam.cg_pro-webfont.woff2);
+}
 
-.top-nav-collapse {
-  background-color: #1C2331; }
 
-/* Adding color to the Navbar on mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #1C2331; } }
+.hero__text {
+    font-family: 'Adam';
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+}
 
-/* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #1C2331; }
+.style_prevu_kit
+{
+    font-size: 3rem;
+    display:inline-block;
+    border:0;
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
 
-#time-counter {
-  font-size: 5rem; }
+}
+
+.style_prevu_kit:hover
+{
+    cursor: pointer;
+    color: #ffc600;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+
+

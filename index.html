@@ -1,173 +1,282 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.min.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> ACHS IT Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    @media (max-width: 559px) {
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css">
 
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
-    @media (min-width: 560px) and (max-width: 740px) {
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-      html,
-      body,
-      header,
-      .view {
-        height: 700px;
-      }
-    }
+    <link rel="stylesheet" href="./libs/animate.css">
+    <!-- Bootstrap Library-->
+    <link rel="stylesheet" href="../libs/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" />
 
-    @media (min-width: 800px) and (max-width: 850px) {
 
-      html,
-      body,
-      header,
-      .view {
-        height: 600px;
-      }
-    }
+    <!--Style css-->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
-    }
-
-  </style>
 </head>
 
 <body>
+    <!--Main Navigation-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+            <div class="container">
+
+                <!-- Brand -->
+                <a class="navbar-brand waves-effect" href="https://github.com/achsitclub/achsitclub.github.io"
+                    target="_blank">
+                    <strong class="blue-text"> &#60;/&#62; ACHS IT Club</strong>
+                </a>
+
+                <!-- Collapse -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <!-- Left -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="./vendor/about.html">About Club</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect"
+                                href=""
+                                target="_blank">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href="/"
+                                target="_blank">Events</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect" href=""
+                                target="_blank">Contact</a>
+                        </li>
+                    </ul>
 
 
-  <!-- Full Page Intro -->
-  <div class="view">
+                    <!-- Right -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com/ACHSITClub/" class="nav-link waves-effect"
+                                target="_blank">
+                                <i class="fa fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link waves-effect" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
 
-    <video class="video-intro" poster="https://mdbootstrap.com/img/Photos/Others/background.jpg" playsinline autoplay
-      muted loop>
-      <source src="https://mdbootstrap.com/img/video/Lines-min.mp4" type="video/mp4">
-    </video>
+                        <li class="nav-item">
+                            <a href="https://github.com/achsitclub"
+                                class="nav-link border border-light rounded waves-effect" target="_blank">
+                                <i class="fa fa-github mr-2"></i> GitHub
+                            </a>
+                        </li>
+                    </ul>
 
-    <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+                </div>
 
-      <!-- Content -->
-      <div class="text-center white-text mx-5 wow fadeIn">
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--Main Navigation-->
 
-        <h1 class="display-4 mb-4">
-          <strong>Coming Soon!</strong>
-        </h1>
+    <!--Main layout-->
+    <main class="mt-5 pt-5">
 
-        <!-- Time Counter -->
-        <p id="time-counter" class="border border-light my-4"></p>
+        <div class="container">
+            <!--Section: Jumbotron-->
+
+            <section class="card blue-gradient wow fadeIn" id="intro">
+                     
+                    <!-- Content -->
+                    <div class="card-body text-white text-center py-5 px-5 my-5">
+
+                        <h1 class="mb-4">
+                            <span class="style_prevu_kit hero__text"> <span class="text-warning">ACHS</span> IT Club
+                            </span>
+                        </h1>
+
+                        <p>
+                            <span class="hero__text text-center">[ Official IT club started by <span
+                                    class="text-warning">Bsc.CSIT</span> students in <span class="text-warning">ACHS
+                                    college.</span> ]</span>
+                        </p>
+                        <p class="mb-4">
+                            <span class="hero__text text-center">
+                                technological fests, competitions, seminars, workshops and <span class="text-warning">
+                                    many more ...</span>
+                            </span>
+
+                        </p>
+
+                        <a href="./vendor/events.html" class="btn btn-outline-white">View Events
+                            <i class="fa fa-graduation-cap ml-2"></i>
+                        </a>
+
+                    </div>
+                    <!-- Content -->
+              
+            </section>
+            <!--Section: Jumbotron-->
+
+            <hr class="my-5">
 
 
-        <h4 class="mb-4">
-          <strong>We're working hard to finish the development of this site. </strong>
-        </h4>
 
-        <h4 class="mb-4 d-none d-md-block">
-          <strong>Until then you can contact us on Facebook Page</strong>
-        </h4>
+    <!--Section: Latest Evenets-->
+    <section class="mt-5 wow fadeIn" id="latest-events">
+        <h2 class="h2 hero__text text-center mb-5">Latest Events</h2>
+        <!--Grid row-->
+        <div class="row">
 
-        <a target="_blank" href="https://www.facebook.com/ACHSITClub/" class="btn btn-outline-white btn-lg">VISIT FACEBOOK PAGE
-          <i class="fab fa-facebook-f ml-2"></i>        </a>
-      </div>
-      <!-- Content -->
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+  
+            <img src="https://scontent.fktm3-1.fna.fbcdn.net/v/t1.0-9/s960x960/80024769_1412740418899343_1259512104583430144_o.jpg?_nc_cat=108&_nc_eui2=AeELFnMmTVOSuu-YyKFG7ITdFTEFHF2aZuMf-Ze-uAzhZYaaPH85NNMUEIEtn9VLISsyhF64rTC9nnRdvOrHJQC5GxcyiPWyvLA3CyH9L67KHA&_nc_ohc=QyVnogWKuPEAQkuow0nmji9M8RQNQF5pqd-s-DTk-hte-43E6oHoh48tg&_nc_ht=scontent.fktm3-1.fna&oh=21bd725f26b9c50a6493ababe34ad0d5&oe=5E9D1FCF" class="img-fluid z-depth-1-half"
+              alt="">
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-6 mb-5">
+            <h4 class="mb-2">ACHS Mini Hack</h4>
+            <p> <i class="fa fa-calendar    "></i> Dec 14, 2019 <p>
+                Participants created a bot for "MATCH GAME" (tile matching game) using python and Microsoft AI services. At the end of the event, all the bot so developed by the participants will compete with each other making a tournament. </p>
+            
+            <hr>
+  
+            <a target="_blank" href="./vendor//events.html" class="btn btn-indigo btn-md">View More Events
+              <i class="fa fa-image ml-1"></i>
+            </a>
+  
+          </div>
+          <!--Grid column-->
+  
+        </div>
+        <!--Grid row-->
+  
+      </section>
+      <!--Section: Main info-->
+  
+  
+        </div>
+    </main>
+    <!--Main layout-->
 
-    </div>
-    <!-- Mask & flexbox options-->
-
-  </div>
-  <!-- Full Page Intro -->
-
-  <!--Footer-->
-  <footer class="page-footer text-center font-small wow fadeIn">
 
 
-    <!--Copyright-->
-    <div class="footer-copyright py-3">
-      © 2019 Copyright:
-      <a href="#" target="_blank"> ACHS IT Club </a>
-    </div>
-    <!--/.Copyright-->
 
-  </footer>
-  <!--/.Footer-->
+    <hr>
+    <section id="latest-events">
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
+    </section>
 
-  </script>
 
-  <!-- Time Counter -->
-  <script type="text/javascript">
-    // Set the date we're counting down to
-    var countDownDate = new Date();
-    countDownDate.setDate(countDownDate.getDate() + 30);
 
-    // Update the count down every 1 second
-    var x = setInterval(function () {
 
-      // Get todays date and time
-      var now = new Date().getTime();
+    <!--Footer-->
+    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+        <hr class="my-5">
 
-      // Find the distance between now an the count down date
-      var distance = countDownDate - now;
+        <!-- Social icons -->
+        <div class="pb-4">
+            <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+                <i class="fa fa-facebook-f mr-3"></i>
+            </a>
 
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            <a href="https://twitter.com/MDBootstrap" target="_blank">
+                <i class="fa fa-twitter mr-3"></i>
+            </a>
 
-      // Display the result in the element with id="demo"
-      document.getElementById("time-counter").innerHTML = days + "d " + hours + "h " +
-        minutes + "m " + seconds + "s ";
+            <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+                <i class="fa fa-youtube mr-3"></i>
+            </a>
 
-      // If the count down is finished, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("time-counter").innerHTML = "EXPIRED";
-      }
-    }, 1000);
+            <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+                <i class="fa fa-google-plus-g mr-3"></i>
+            </a>
 
-  </script>
+            <a href="https://dribbble.com/mdbootstrap" target="_blank">
+                <i class="fa fa-dribbble mr-3"></i>
+            </a>
+
+            <a href="https://pinterest.com/mdbootstrap" target="_blank">
+                <i class="fa fa-pinterest mr-3"></i>
+            </a>
+
+            <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+                <i class="fa fa-github mr-3"></i>
+            </a>
+
+            <a href="http://codepen.io/mdbootstrap/" target="_blank">
+                <i class="fa fa-codepen mr-3"></i>
+            </a>
+        </div>
+        <!-- Social icons -->
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3">
+            © 2020 Copyright:
+            <a href="#"> ACHS IT Club </a>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+
+
+
+
+    <!--Jquery JS-->
+    <script src="libs/jquery-3.3.1.min.js"></script>
+
+    <!--Bootstrap JS-->
+    <script src="libs/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js">
+    </script>
+
+    <!--Popper JS-->
+    <script src="libs/popper.min.js"></script>
+
+    <script src="libs/particles.min.js"></script>
+
+
+    <!--Custom JS -->
+    <script src="js/custom.js"></script>
+
+    <script>
+    </script>
+
 </body>
 
 </html>
