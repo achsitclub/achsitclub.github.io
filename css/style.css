@@ -10,6 +10,16 @@
 }
 
 
+body, html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*==============
+
+================*/
+
 .hero__text {
     font-family: 'Adam';
     text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
@@ -50,3 +60,6 @@
 
 
 
+nav { 
+    text-transform: uppercase;
+}
