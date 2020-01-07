@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,8 @@
 }
 
 
-body, html {
+body,
+html {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -22,35 +23,33 @@ body, html {
 
 .hero__text {
     font-family: 'Adam';
-    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
 
-.style_prevu_kit
-{
+.style_prevu_kit {
     font-size: 3rem;
-    display:inline-block;
-    border:0;
+    display: inline-block;
+    border: 0;
     position: relative;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
+    -webkit-transform: scale(1);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
+    -ms-transform: scale(1);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
-    transform: scale(1);   
+    transform: scale(1);
 
 }
 
-.style_prevu_kit:hover
-{
+.style_prevu_kit:hover {
     cursor: pointer;
     color: #ffc600;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1.5);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
+    -ms-transform: scale(1.5);
     -moz-transition: all 200ms ease-in;
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
@@ -60,6 +59,35 @@ body, html {
 
 
 
-nav { 
+nav {
     text-transform: uppercase;
 }
+
+
+
+
+
+/* Social Icons */
+
+#social-icons ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  #social-icons  a {
+    display:inline-block;
+    font-size: 50px;
+    line-height: 100px;
+    border: 10px solid #101213;;
+    border-radius: 50%;
+    color: #111111;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  
+  #social-icons  a:hover {
+    color: #95a5a6;
+    border-color: #95a5a6;
+  }
