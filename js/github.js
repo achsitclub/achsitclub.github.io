@@ -21,6 +21,7 @@ class GitHub {
     async showData() {
         const result = await this.fetchUsers(this.url);
         result.data.forEach(repo => {
+
             const anchor = document.createElement('a');
             anchor.href = repo.html_url;
             anchor.textContent = repo.name;
@@ -32,12 +33,13 @@ class GitHub {
 
             resultContainer.appendChild(document.createTextNode(`Language : ${repo.language} `));
             resultContainer.appendChild(document.createTextNode(`Issues : ${repo.open_issues_count} `));
-            resultContainer.appendChild(document.createTextNode(`Star : ${repo.stargazers_count} `));
-            resultContainer.appendChild(document.createTextNode(`Forks : ${repo.forks_count} `));
+            resultContainer.appendChild(document.createTextNode(`🌟 : ${repo.stargazers_count} `));
+            resultContainer.appendChild(document.createTextNode(`🍴 : ${repo.forks_count} `));
             resultContainer.appendChild(document.createTextNode(`Updated at : ${new moment(repo.updated_at).format('MMMM Do YYYY')}`));
 
             resultContainer.appendChild(document.createElement("br"));
             resultContainer.appendChild(document.createElement("hr"));
+
         });
     }
 }
