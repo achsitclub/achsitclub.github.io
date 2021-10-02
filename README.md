@@ -1,5 +1,5 @@
-<h1 align="center">This website has been deprecated.</h1>
+<p> This website is still in development stage, all contibutions are welcome </p>
 
 
-### ✨ [Demo](https://achsitclub.github.io/)
+✨ [Demo](https://achsitclub.github.io/)
 
